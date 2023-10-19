@@ -11,6 +11,6 @@ class CarouselItems extends Model
     protected $table = 'carousel_items';
     protected $primaryKey = 'carousel_item_id';
     protected $fillable = [
-        'carousel_name', 'image_path', 'description', 'user_id'
+        'carousel_name', 'image_path', 'description', 'user_id',
     ];
 }
